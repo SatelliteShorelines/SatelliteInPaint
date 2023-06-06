@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SatelliteInPaint"
+version = "0.0.1"
+authors = [
+  { name="Daniel Buscombe", email="dbuscombe@gmail.com" },
+]
+description = "A Stable Diffusion-based way to inpaint satellite imagery"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dbuscombe-usgs/SatelliteInPaint"
+"Bug Tracker" = "https://github.com/dbuscombe-usgs/SatelliteInPaint/issues"
