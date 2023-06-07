@@ -39,3 +39,10 @@ pip install -r requirements.txt
 ```
 python SatelliteInPaint.py  
 ```
+
+## Example outputs
+
+![2006-12-09-15-22-08_RGB_L5_workflow](https://github.com/dbuscombe-usgs/SatelliteInPaint/assets/3596509/9619e517-f34b-4c29-8502-7fd8c87f96e0)
+![2006-12-24-15-23-53_RGB_L7_workflow](https://github.com/dbuscombe-usgs/SatelliteInPaint/assets/3596509/224f87ba-179c-43b5-9ca6-a0a958adf7a0)
+![2018-08-31-15-43-33_RGB_S2_workflow](https://github.com/dbuscombe-usgs/SatelliteInPaint/assets/3596509/d6f57193-91e8-49b6-b588-fb7f5be442bf)
+![2018-07-22-15-47-20_RGB_S2_workflow](https://github.com/dbuscombe-usgs/SatelliteInPaint/assets/3596509/b9b66d88-5785-4b00-a1e4-9e7ea051f39c)
