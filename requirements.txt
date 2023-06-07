@@ -1,6 +1,8 @@
 numpy
 torch
 diffusers
+transformers
+accelerate
 pillow
 scikit-image
 rasterio

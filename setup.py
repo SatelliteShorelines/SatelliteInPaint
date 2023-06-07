@@ -16,7 +16,7 @@ setuptools.setup(
     url="https://github.com/dbuscombe-usgs/SatelliteInPaint",
     packages=['SatelliteInPaint'],
     install_requires=['numpy','diffusers','rasterio','matplotlib',
-        'torch','pillow','scikit-image','tqdm'],
+        'transformers', 'accelerate','torch','pillow','scikit-image','tqdm'],
     classifiers=[
         "Programming Language :: Python :: 3",
         'Intended Audience :: Science/Research',
