@@ -276,7 +276,7 @@ if __name__ == '__main__':
     ## for making mask. values less than thres are inpainted
     thres=0.01
     ## upper limit of black pixel proportion to be considered
-    prop_black_upper = .3
+    prop_black_upper = .9#.3
     ## size of dilation applied to mask
     size_disk = 9
     ## number of images over which to average
