@@ -64,14 +64,13 @@ root.withdraw()
 
 fps = 1
 
-files = sorted(glob(folder+os.sep+"*L7.jpg"))
+files = sorted(glob(folder+os.sep+"*L5.jpg"))+sorted(glob(folder+os.sep+"*L7.jpg"))+sorted(glob(folder+os.sep+"*L8.jpg"))+sorted(glob(folder+os.sep+"*L9.jpg"))+sorted(glob(folder+os.sep+"*S2.jpg"))
 inpaint_files = [f.replace(".jpg","_inpaint.jpg") for f in files]
 
 #====================================================================
 ani = make_ani_sidebyside(files,inpaint_files)
-ani.save(folder+os.sep+"L7_orig_inpaint.gif", writer='imagemagick', fps=fps)
+ani.save(folder+os.sep+"out_orig_inpaint.gif", writer='imagemagick', fps=fps)
 del ani
-
 
 
 # ani = make_ani(files)

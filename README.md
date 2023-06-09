@@ -2,6 +2,9 @@
 
 Inpaint satellite imagery using Stable Diffusion. It takes an input image, and fills in the zeros. It does this by dilating and filtering a mask of the zeros in the input image using morphological operators, then using the Stable Diffusion model to carry out inpainting in that region. The original and inpainted images are merged such that only the previously zero pixels are modified. 
 
+![L9_orig_inpaint_cropped](https://github.com/dbuscombe-usgs/SatelliteInPaint/assets/3596509/475a1a72-f74f-4529-b73d-fd5c31e731fa)
+![L8_orig_inpaint_cropped](https://github.com/dbuscombe-usgs/SatelliteInPaint/assets/3596509/4e473a06-77eb-4085-8004-5775cef283ad)
+
 It uses a cuda-enabled GPU and runs using pytorch
 
 User variables:
